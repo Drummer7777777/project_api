@@ -38,18 +38,18 @@ class Users:
         data,data2,data3 = [],[],[]
         if username==None:
             for idd in users:
-                data.append(users[idd]['username'])
+                data.append(users[idd])#['username'])
         else:
             for idd in users:
                 if username in users[idd]['username']:
-                    data.append(users[idd]['username'])
+                    data.append(users[idd])#['username'])
         if department==None:
             for idd in users:
-                data2.append(users[idd]['username'])
+                data2.append(users[idd])#['username'])
         else:
             for idd in users:
                 if department in users[idd]['department']['name']:
-                    data2.append(users[idd]['username'])
+                    data2.append(users[idd])#['username'])
         for item in data:
             if item in data2:
                 data3.append(item)
