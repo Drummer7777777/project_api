@@ -1,3 +1,0 @@
-import users
-
-users.main()
