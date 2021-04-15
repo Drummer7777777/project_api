@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+    server:
+        build: .
+        command: users.py
+        ports: 
+            - 8080:8080
+    client:
+        image: client
+        command: -c "pytest -v -s -n2 --fixtures=conftest.py test_example.py --disable-warnings; tail -f ../dev/null"
+        network_mode: host
+        depends_on: 
+            - server
