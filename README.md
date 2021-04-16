@@ -10,12 +10,15 @@ project_api is api server app and tests for him written in python v3.9
 
 Uses python lib cherrypy. Database is json file.
 Before using use command 
-<h1>```pip install cherrypy```<h1>
+```pip install cherrypy```
 For start server use command
 `python users.py`
 
 ### tests
 
 Uses python lib pytest. Database is json file.
+Before using use command 
+```pip install pytest
+   pip install pytest-xdist```
 For start tests should be launched server and use comand
 `pytest -v -n 2 test_example.py`
