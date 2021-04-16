@@ -18,7 +18,7 @@ For start server use command
 
 Uses python lib pytest. Database is json file.
 Before using use command 
-```pip install pytest
-   pip install pytest-xdist```
+`pip install pytest
+   pip install pytest-xdist`
 For start tests should be launched server and use comand
 `pytest -v -n 2 test_example.py`
