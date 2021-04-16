@@ -9,8 +9,10 @@ project_api is api server app and tests for him written in python v3.9
 ### api server
 
 Uses python lib cherrypy. Database is json file.
+
 Before using use command 
 ```pip install cherrypy```
+
 For start server use command
 `python users.py`
 
