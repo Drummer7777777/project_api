@@ -10,7 +10,7 @@ project_api is api server app and tests for him written in python v3.9
 
 Uses python lib cherrypy. Database is json file.
 For start server use 
-'''python users.py'''
+`python users.py`
 
 ### tests
 
