@@ -1,5 +1,4 @@
 import pytest, json
-#from threading import *
 
 @pytest.fixture(scope='function')
 def data_base():
