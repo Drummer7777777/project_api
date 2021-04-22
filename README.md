@@ -4,7 +4,13 @@
 
 ## What is project_api?
 
-project_api is api server app and tests for him written in python v3.9 It is possible ti run it all in containers Docker-compose 
+project_api is api server app and tests for him written in python v3.9 It is possible ti run it all in containers Docker-compose.
+Library used:
+- cherrypy
+- json
+- pytest
+- requests
+- re
 
 ### api server
 
