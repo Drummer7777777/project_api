@@ -177,5 +177,7 @@ class TestUsers():
             logs(func_name,passed)
         else:
             logs(func_name,failed,'В ответе не все совпадения')
-        assert r==str(all_coincidence)
+        assaert r==str(all_coincidence)
         
+    def test_test(self):
+        pass
